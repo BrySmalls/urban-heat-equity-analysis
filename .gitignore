@@ -216,3 +216,39 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# -----------------------------
+# GIS / ArcGIS Files
+# -----------------------------
+
+# ArcGIS lock files
+*.lock
+
+# ArcGIS geodatabases
+*.gdb/
+*.mdb/
+
+# GIS temporary files
+*.aux
+*.ovr
+*.xml
+
+# QGIS
+*.qgz~
+*.qgs~
+
+# Raster pyramids
+*.rrd
+
+# Large raw datasets
+data/raw/
+
+# Processed exports (optional)
+data/processed/temp/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
