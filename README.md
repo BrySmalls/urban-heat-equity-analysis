@@ -24,7 +24,6 @@ Data → ETL → PostGIS → Spatial Analysis → Dashboard
 - NLCD Land Cover
 
 ## 📡 Data Acquisition Status
-
 ### Landsat Surface Temperature
 **Scene**: `LC09_L2SP_015033_20260503_20260504_02_T1` (Landsat 9 C2 L2)
 **Location**: Path 15 / Row 33 (Washington, DC)
