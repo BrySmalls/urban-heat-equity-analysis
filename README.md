@@ -19,8 +19,16 @@ This project identifies neighborhoods most vulnerable to extreme urban heat usin
 Data → ETL → PostGIS → Spatial Analysis → Dashboard
 
 ## Datasets
-- USGS Landsat
-- U.S. Census ACS
+- **USGS Landsat 8-9 Collection 2 Level-2**:
+Source: U.S. Geological Survey.
+Geography: Washington, DC scene coverage.
+Fields: surface temperature, surface reflectance, cloud mask, and related thermal bands.
+Used for: urban heat exposure layer and land surface temperature analysis.
+- **U.S. Census Bureau ACS 5-year estimates**:
+Source: U.S. Census Bureau.
+Geography: Census tracts in Washington, DC.
+Fields: median income, poverty rate, age 65+, population density.
+Used for: socioeconomic vulnerability layer.
 - NLCD Land Cover
 
 ## 📡 Data Acquisition Status
