@@ -18,25 +18,6 @@ This project identifies neighborhoods most vulnerable to extreme urban heat usin
 ## Workflow
 Data → ETL → PostGIS → Spatial Analysis → Dashboard
 
-## Datasets
-### USGS Landsat 8-9 Collection 2 Level-2
-- Source: U.S. Geological Survey
-- Geography: Washington, DC scene coverage
-- Fields: surface temperature, surface reflectance, cloud mask, and related thermal bands
-- Used for: urban heat exposure layer and land surface temperature analysis
-
-### U.S. Census Bureau ACS 5-year estimates
-- Source: U.S. Census Bureau
-- Geography: Census tracts in Washington, DC
-- Fields: median income, poverty rate, age 65+, population density
-- Used for: socioeconomic vulnerability layer
-
-### USGS NLCD Fractional Impervious Surface
-- Source: U.S. Geological Survey.
-- Geography: Washington, DC land cover coverage.
-- Fields: impervious surface percentage and built-environment context.
-- Used for: built environment and heat retention analysis.
-
 ## 📡 Data Acquisition Status
 ### Landsat Surface Temperature
 - Scene: `LC09_L2SP_015033_20260503_20260504_02_T1` (Landsat 9 C2 L2)
@@ -48,6 +29,24 @@ Data → ETL → PostGIS → Spatial Analysis → Dashboard
 - Storage: `data/raw/temperature/` *(local, excluded from Git)*
 - Quick stats: Resolution 30m, UTM Zone 18N, cloud cover <10%
 
+## Datasets
+### USGS Landsat 8-9 Collection 2 Level-2
+- Source: U.S. Geological Survey
+- Geography: Washington, DC scene coverage
+- Fields: surface temperature, surface reflectance, cloud mask, and related thermal bands.
+- Used for: land surface temperature and urban heat exposure analysis.
+
+### U.S. Census Bureau ACS 5-year estimates
+- Source: U.S. Census Bureau
+- Geography: Census tracts in Washington, DC
+- Fields: median income, poverty rate, age 65+, and population density.
+- Used for: socioeconomic vulnerability analysis.
+
+### USGS NLCD Fractional Impervious Surface
+- Source: U.S. Geological Survey.
+- Geography: Washington, DC land cover coverage.
+- Fields: impervious surface percentage and built-environment context.
+- Used for: built environment and heat retention analysis.
 
 ## Results
 (Add screenshots later)
